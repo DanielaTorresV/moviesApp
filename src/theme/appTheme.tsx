@@ -5,16 +5,15 @@ export const styles = StyleSheet.create({
     margin: 10,
   },
   maintitle: {
+    marginLeft: 10,
+    marginBottom: 5,
     fontSize: 25,
+    fontWeight: 'bold'
   },
   containerLoading: {
     flex: 1,
     justifyContent: 'center',
     alignContent: 'center'
-  },
-  containerMainMoviePosterImage: {
-    width: 300,
-    height: 420,
   },
   containerMoviePosterImage: {
     flex: 1,
@@ -26,10 +25,13 @@ export const styles = StyleSheet.create({
     },
     shadowOpacity: 0.24,
     shadowRadius: 7,
-    elevation: 10,
+    elevation: 9,
   },
   moviePosterImage: {
     flex: 1,
     borderRadius: 18,    
+  },
+  containerCarousel: {
+    height: 440,
   }
 });
