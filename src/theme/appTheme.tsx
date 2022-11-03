@@ -33,5 +33,5 @@ export const styles = StyleSheet.create({
   },
   containerCarousel: {
     height: 440,
-  }
+  },
 });
