@@ -17,7 +17,7 @@ const GradientBG = ({ children }: Props) => {
   useEffect(() => {
     fadeIn( () => {
       setPreviusMainColors( colors );
-      fadeOut();
+      fadeOut(0);
     })
   }, [ colors ])
 
