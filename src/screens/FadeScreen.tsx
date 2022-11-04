@@ -17,7 +17,7 @@ const FadeScreen = () => {
     >
       <Button 
         title='FADEOUT'
-        onPress={ fadeOut }
+        onPress={ () => fadeOut() }
       />
 
       <Animated.View 
@@ -35,7 +35,7 @@ const FadeScreen = () => {
 
       <Button 
          title='FADEIN'
-         onPress={ fadeIn }
+         onPress={ () => fadeIn() }
       />
 
     </View>
